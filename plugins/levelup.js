@@ -27,12 +27,12 @@ Kurang *${max - user.exp}* lagi! ✨
     if (before !== user.level) {
         let teks = `.             ${user.role}`
         let str = `
-*🎉 C O N G R A T S 🎉*
+*🎉 𝗦 𝗘 𝗟 𝗔 𝗠 𝗔 𝗧 🎉*
 *${before}* ➔ *${user.level}* [ *${user.role}* ]`.trim()
         try {
         const img = await levelup(teks, user.level)
             conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!\n⚙ Lᴇᴠᴇʟ : ${user.level}\n⚙ Rᴏʟᴇ : ${user.role}`, botdate, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://facebook.com/sadtime098',
+    mediaUrl: 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',
     mediaType: 1, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
@@ -43,7 +43,7 @@ Kurang *${max - user.exp}* lagi! ✨
         } catch (e) {
        /*     conn.sendButton(m.chat, str, botdate, [['INVENTORY', '.inv']], m)*/
             conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!`, botdate, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/_b4c00t4an_s3l3b',
+    mediaUrl: 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",

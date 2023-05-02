@@ -32,11 +32,11 @@ let ss = '30'
 let sp = '35'
 let sv = '65'
 //premium
-let ph = '5'
-let pn = '20'
-let pp = '40'
-let pv = '50'
-let ppm = '70'
+let ph = '2'
+let pn = '5'
+let pp = '10'
+let pv = '15'
+let ppm = '30'
 let wibb = `${wktuwib}`
 
 let info = 

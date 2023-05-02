@@ -11,14 +11,14 @@ let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢'
 const defaultMenu = {
 before: `
 ┏━━━━━━━━━━━━━━━━━━༉
-┃⍣╭╌╌╌╌⟢ ℙ𝕌𝕃𝕌 ℙ𝕌𝕃𝕌 ⟣╌╌╌╌╌ ×͜×
-┃⍣┊「 Hai Kak 👋 」
+┃⍣╭╌╌╌╌⟢ 𝗟𝗲𝗼𝗻𝗕𝗼𝘁-𝗠𝗗 ⟣╌╌╌╌╌ ×͜×
+┃⍣┊「 𝙷𝚊𝚒 𝙺𝚊𝚔 👋 」
 ┃⍣┊々 %name
 ┃⍣┊々 %ucpn
 ┃⍣┊々 Jangan Spam Ya Kak 😁
 ┃⍣╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈๛
 ┃ ⏤͟͟͞͞★ %wm ꗄ➺
-┃⍣╭╌╌╌╌⟢ 𝕎𝔸𝕂𝕋𝕌 ⟣╌╌╌╌╌ ×͜×
+┃⍣╭╌╌╌╌⟢ 𝗪𝗮𝗸𝘁𝘂 ⟣╌╌╌╌╌ ×͜×
 ┃⍣┊⏣ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: %week %weton
 ┃⍣┊⏣ 𝙳𝚊𝚝𝚎: %date
 ┃⍣┊⏣ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕 𝙸𝚜𝚕𝚊𝚖: %dateislamic
@@ -34,7 +34,7 @@ before: `
 ┃⍣╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈𖤍 %readmore
 ┗━━━━╾ ⏤͟͟͞͞★ %wm ꗄ➺
 
-   ⏤͟͟͞͞★ 𝐃𝐀𝐅𝐓𝐀𝐑 𝐌𝐄𝐍𝐔 𝐁𝐎𝐓ꗄ➺
+   ⏤͟͟͞͞★ 𝙳𝚊𝚏𝚝𝚊𝚛 𝙼𝚎𝚗𝚞 𝙱𝚘𝚝 ꗄ➺
 `.trimStart(),
   header: `╭┈┈┈┈╼ ▣ %category ▣▷`,
   body: `│${emot} %cmd %isPremium %islimit`,
@@ -220,61 +220,61 @@ setTimeout(resolve, 1000)
 let mpt = clockString(_mpt)    
 const sections = [
    {
-    title: `${htki} MAIN ${htka}`,
+    title: `${htki} 𝗠𝗔𝗜𝗡 ${htka}`,
     rows: [
         {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
         {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-        {title: `⏰ ${pmenus} RUNTIME BOT`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 Waktu Bot Berjalan"}, 
+        {title: `⏰ ${pmenus} RUNTIME BOT`, rowId: ".runtime", description: "Menampilkan Waktu Bot Berjalan"}, 
         {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
-        title: `${htki} SUPPORT ${htka}`,
+        title: `${htki} 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ${htka}`,
         rows: [
             {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
             {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         ]
         },{
-          title: `${htki} MENU MENFESS ${htka}`,
+          title: `${htki} 𝗠𝗘𝗡𝗨 𝗠𝗘𝗡𝗙𝗘𝗦𝗦 ${htka}`,
           rows: [
             {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
           ]},{
-        title: `${htki} MENU ${htka}`,
+        title: `${htki} 𝗠𝗘𝗡𝗨 ${htka}`,
         rows: [
-            {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-        {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-        {title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-        {title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-        {title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-        {title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-        {title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},        
-        {title: `🎥 ${pmenus} Vidio`, rowId: ".? vidiorandom", description: "Vidio Random Status Luar"},       
-         {title: `🙎‍♀️ ${pmenus} Asupan`, rowId: ".? asupan", description: "Fitur Asupan Di Bot"},        
-        {title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-        {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-        {title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
-        {title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-        {title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-        {title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-        {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-        {title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-        {title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-        {title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-        {title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-        {title: `📝 ${pmenus} Buat Catatan`, rowId: ".? catatan", description: "Buat Catatan Kamu di Bot"},
-        {title: `🎧 ${pmenus} Preset Alight Montion/APK`, rowId: ".presetmenu", description: "Gunakan Preset Bot buat Alight Montion Mu"},                        
-        {title: `🎧 ${pmenus} Audio Anime`, rowId: ".? audioanime", description: "Kamu Wibu ya Bang"},             
-        {title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-        {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
-        {title: `🎧 ${pmenus} Sound Kane Menu`, rowId: ".? sound2004", description: "Kumpulan 24 Sound"},
-        {title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-        {title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-        {title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-        {title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},       
-        {title: `🦠 ${pmenus} Sendbug/Virus`, rowId: ".? virus", description: "Buat Hp orang leg/crash"},     
-        {title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-        {title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-        {title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+            {title: `💬 ${pmenus} 𝗔𝗹𝗹 𝗠𝗲𝗻𝘂`, rowId: ".? all", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ sᴇᴍᴜᴀ ғɪᴛᴜʀ ʙᴏᴛ"},
+        {title: `🌱 ${pmenus} 𝗥𝗽𝗴 𝗚𝗮𝗺𝗲𝘀`, rowId: ".? rpg", description: "ɢᴀᴍᴇ ʀᴘɢ [ʀᴏʟᴇ ᴘʟᴀʏɪɴɢ ɢᴀᴍᴇ]"},
+        {title: `✨ ${pmenus} 𝗘𝘅𝗽`, rowId: ".? xp", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴛɪɴɢᴋᴀᴛᴋᴀɴ ᴇxᴘ"},
+        {title: `🎮 ${pmenus} 𝗚𝗮𝗺𝗲`, rowId: ".? game", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ɢᴀᴍᴇ"},
+        {title: `🧩 ${pmenus} 𝗙𝘂𝗻 𝗠𝗲𝗻𝘂`, rowId: ".? fun", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ғᴜɴ"},
+        {title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴋᴇʀᴀɴɢ ᴀᴊᴀɪʙ"},
+        {title: `📑 ${pmenus} 𝗤𝗼𝘂𝘁𝗲𝘀`, rowId: ".? quotes", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ǫᴏᴜᴛᴇs"},        
+        {title: `🎥 ${pmenus} 𝗩𝗶𝗱𝗲𝗼`, rowId: ".? vidiorandom", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ᴠɪᴅᴇᴏ sᴛᴀᴛᴜs ʀᴀɴᴅᴏᴍ"},       
+         {title: `🙎‍♀️ ${pmenus} 𝗔𝘀𝘂𝗽𝗮𝗻`, rowId: ".? asupan", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴀsᴜᴘᴀɴ ʙᴏᴛ"},        
+        {title: `⛩️ ${pmenus} 𝗔𝗻𝗶𝗺𝗲`, rowId: ".? anime", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴀɴɪᴍᴇ"},
+        {title: `🔞 ${pmenus} 𝗡𝘀𝗳𝘄`, rowId: ".? nsfw", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ɴsғᴡ"},
+        {title: `🌟 ${pmenus} 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗠𝗲𝗻𝘂`, rowId: ".? premium", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴋʜᴜsᴜs ᴘʀᴇᴍɪᴜᴍ"},
+        {title: `🎭 ${pmenus} 𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀 𝗖𝗵𝗮𝘁`, rowId: ".? anonymous", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴀɴᴏɴʏᴍᴏᴜs"},
+        {title: `📖 ${pmenus} 𝗔𝗹-𝗤𝘂𝗿𝗮𝗻`, rowId: ".? quran", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴀʟ ǫᴜʀᴀɴ"},
+        {title: `🌎 ${pmenus} 𝗜𝗻𝘁𝗲𝗿𝗻𝗲𝘁 𝗠𝗲𝗻𝘂`, rowId: ".? internet", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ɪɴᴛᴇʀɴᴇᴛ ᴜɴᴛᴜᴋ sᴇᴀʀᴄʜɪɴɢ"},
+        {title: `🌎 ${pmenus} 𝗕𝗲𝗿𝗶𝘁𝗮`, rowId: ".? berita", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ʙᴇʀɪᴛᴀ ᴛᴇʀ-ᴜᴘᴅᴀᴛᴇ"},
+        {title: `📩 ${pmenus} 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿𝘀`, rowId: ".? downloader", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴅᴏᴡɴʟᴏᴀᴅ"},
+        {title: `🎨 ${pmenus} 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗠𝗮𝗸𝗲𝗿`, rowId: ".? stiker", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ sᴛɪᴋᴇʀ ᴍᴀᴋᴇʀ"},
+        {title: `🎨 ${pmenus} 𝗟𝗼𝗴𝗼 𝗠𝗮𝗸𝗲𝗿`, rowId: ".? logo", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴍᴀᴋᴇʀ ʟᴏɢᴏ"},
+        {title: `✏️ ${pmenus} 𝗡𝘂𝗹𝗶𝘀 𝗠𝗲𝗻𝘂`, rowId: ".? nulis", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ɴᴜʟɪs ʙʏ ʙᴏᴛ"},
+        {title: `📝 ${pmenus} 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗡𝗼𝘁𝗲/𝗕𝘂𝗮𝘁 𝗖𝗮𝘁𝗮𝘁𝗮𝗻`, rowId: ".? catatan", description: "ᴄʀᴇᴀᴛᴇᴅ ʏᴏᴜʀ ɴᴏᴛᴇ ɪɴ ʙᴏᴛ"},
+        {title: `🎧 ${pmenus} 𝗣𝗿𝗲𝘀𝗲𝘁 𝗔𝗹𝗶𝗴𝗵𝘁 𝗠𝗼𝘁𝗶𝗼𝗻/𝗔𝗣𝗞`, rowId: ".presetmenu", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴘʀᴇsᴇᴛ ᴀʟɪɢʜᴛ ᴍᴏᴛɪᴏɴ"},                        
+        {title: `🎧 ${pmenus} 𝗔𝘂𝗱𝗶𝗼 𝗔𝗻𝗶𝗺𝗲`, rowId: ".? audioanime", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ sᴏᴜɴᴅ ᴀɴɪᴍᴇ"},             
+        {title: `🎧 ${pmenus} 𝗙𝗶𝗹𝘁𝗲𝗿 𝗔𝘂𝗱𝗶𝗼`, rowId: ".? audio", description: "ᴜʙᴀʜ ᴀᴜᴅɪᴏ ᴅᴇɴɢᴀɴ ғɪʟᴛᴇʀ"},
+        {title: `🎧 ${pmenus} 𝗦𝗼𝘂𝗻𝗱 𝗠𝗲𝗻𝘂`, rowId: ".soundmenu", description: "120 sᴏᴜɴᴅ"},
+        {title: `🎧 ${pmenus} 𝗦𝗼𝘂𝗻𝗱 𝗞𝗮𝗻𝗲`, rowId: ".? sound2004", description: "sᴏᴜɴᴅ ᴋᴀɴᴇ"},
+        {title: `🏢 ${pmenus} 𝗚𝗿𝗼𝘂𝗽`, rowId: ".? group", description: "ᴋʜᴜsᴜs ᴅɪᴅᴀʟᴀᴍ ɢʀᴏᴜᴘ"},
+        {title: `👑 ${pmenus} 𝗔𝗱𝗺𝗶𝗻 𝗠𝗲𝗻𝘂`, rowId: ".? admin", description: "ᴏɴʟʏ ᴀᴅᴍɪɴ ɢʀᴏᴜᴘ"},
+        {title: `🗂️ ${pmenus} 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗠𝗲𝗻𝘂`, rowId: ".? database", description: "ᴍᴇɴʏɪᴍᴘᴀɴ ᴅᴀᴛᴀʙᴀsᴇ"},
+        {title: `🛠️ ${pmenus} 𝗧𝗼𝗼𝗹𝘀 𝗠𝗲𝗻𝘂`, rowId: ".? tools", description: "ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ʟɪsᴛ ᴍᴇɴᴜ ᴛᴏᴏʟs"},       
+        {title: `🦠 ${pmenus} 𝗦𝗲𝗻𝗱𝗕𝘂𝗴/𝗩𝗶𝗿𝘂𝘀`, rowId: ".? virus", description: "ʙᴜᴀᴛ ʜᴘ ᴏʀɢ ʟᴇɢ/ᴄʀᴀsʜ (ᴏɴʟʏ ᴡʜᴀᴛsᴀᴘᴘ)"},     
+        {title: `ℹ️ ${pmenus} 𝗜𝗻𝗳𝗼 𝗠𝗲𝗻𝘂`, rowId: ".? info", description: "ɪɴғᴏ ʙᴏᴛ"},
+        {title: `👩‍💻 ${pmenus} 𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁 𝗢𝗻𝗹𝘆`, rowId: ".? owner", description: "ᴋʜᴜsᴜs ᴏᴡɴᴇʀ ʙᴏᴛ!"},
+        {title: `❓ ${pmenus} 𝗡𝗼 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆`, rowId: ".? nocategory", description: "ɴᴏ ᴄᴀᴛᴇɢᴏʀʏ!"},
 ] } ]
 let usrs = db.data.users[m.sender]
 /**************************** TIME *********************/
@@ -288,13 +288,13 @@ let usrs = db.data.users[m.sender]
 
  const tek =`*${ucapan()} ${conn.getName(m.sender)}*
 
-𝐔 𝐒 𝐄 𝐑  𝐈 𝐍 𝐅 𝐎
+𝗨 𝘀 𝗲 𝗿  𝗜 𝗻 𝗳 𝗼
 • *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 • *ᴛᴀɢs:* @${m.sender.split`@`[0]}
 • *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
 • *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 
-𝐒 𝐓 𝐀 𝐓 𝐔 𝐒  𝐈 𝐍 𝐅 𝐎
+𝗦 𝘁 𝗮 𝘁 𝘂 𝘀  𝗜 𝗻 𝗳 𝗼
 • *ᴜᴘᴛɪᴍᴇ:* ${mpt}
 • *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 • *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
@@ -304,7 +304,7 @@ let usrs = db.data.users[m.sender]
 • *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
-𝐖 𝐀 𝐊 𝐓 𝐔  𝐈 𝐍 𝐅 𝐎 
+𝗧 𝗶 𝗺 𝗲  𝗜 𝗻 𝗳 𝗼
 • *𝚃𝙰𝙽𝙶𝙶𝙰𝙻:* ${datee}
 • *𝚆𝙸𝙱:* ${wib}
 • *𝚆𝙸𝚃:* ${wit}
@@ -316,7 +316,7 @@ const listMessage = {
   footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ${nameown}\n\n${botdate}\n\n${wm}`,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔`, 
+  buttonText: `List Menu 🍜`, 
   sections
 }
   if (teks == '404') {

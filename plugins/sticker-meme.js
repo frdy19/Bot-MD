@@ -15,7 +15,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = ['smeme <teks atas>|<teks bawah>']
 handler.tags = ['tools', 'sticker']
-handler.command = /^(smeme)$/i
+handler.command = /^(smeme|smm)$/i
 
 handler.limit = false
 

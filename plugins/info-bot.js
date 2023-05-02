@@ -52,11 +52,11 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let old = performance.now()
   let neww = performance.now()
   let speed = neww - old
-  let cap = `*⫹⫺ ––––––『 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 』–––––– ⫹⫺*`
+  let cap = `*⫹⫺ ––––––『 𝗕𝗼𝘁 𝗜𝗻𝗳𝗼 』–––––– ⫹⫺*`
 let cip =`🤖 ɴᴀᴍᴇ: ${namabot}
 🧩 ᴠᴇʀsɪᴏɴ: 3.0.0
 📚 ʟɪʙʀᴀʀʏ: RPG BOT WHATSAPP BY : ${namabot}
-💻 ʀᴜɴ ᴠɪᴀ : Panel ( FatzzKurumi ( wa.me/6282213445634 ))
+💻 ʀᴜɴ ᴠɪᴀ : Replit ((repl.co))
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
 📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
