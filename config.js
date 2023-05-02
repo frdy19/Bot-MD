@@ -42,60 +42,60 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 const readMore = more.repeat(4001)
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/marsandi_95'
-global.tautanwa = 'https://wa.me/6281228070013'
-global.sgh = 'https://github.com/KifuKu' //github
-global.sgc = 'https://chat.whatsapp.com/HZSFalBq8R1FFK3qX02WJj'  //group whatsapp
+global.sig = '-'
+global.tautanwa = 'https://wa.me/62823504965328'
+global.sgh = 'https://github.com/frdy29' //github
+global.sgc = 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg'  //group whatsapp
 global.sdc = '-' //discord
-global.linkyt = 'https://youtube.com/@Ziro-MD_Official'
-global.syt = 'https://youtube.com/@Ziro-MD_Official'
-global.sfb = 'https://www.facebook.com/marsandi.mar.1'// facebook
-global.snh = 'https://chat.whatsapp.com/HZSFalBq8R1FFK3qX02WJj'
-global.media = 'https://telegra.ph/file/4c41e3fa6c1e02a8d1e87.jpg'
+global.linkyt = '-'
+global.syt = '-'
+global.sfb = '-'// facebook
+global.snh = 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg'
+global.media = 'https://ibb.co/bzN5RWQ'
 global.wame = 'https://wa.me/6281228070013'
 //⫹⫺ ╳╶┈ ⎝ NOOWNER,NOBOT,NAMAOWNER,NAMABOT  ⎞ ┈╾╴╳ ⫹⫺
-global.owner = [['6281228070013', '𝒁𝐢𝐫𝐨𝐁𝐎𝐓𝐳-𝑴𝑫', true]]
+global.owner = [['62823504965328', '𝙵𝙴𝚁𝙳𝚈 𝙵𝙸𝚁𝙼𝙰𝙽𝚂𝚈𝙰𝙷', true]]
 global.mods = []
 global.prems = []
-global.nomorbot = '6289530291942' //pasang no bot lo 
-global.nomorown = '6281228070013' //pasang no own lo
-global.nomorown1 = '6281228070013'
-global.nomorown2 = '6281228070013'
+global.nomorbot = '62823504965320' //pasang no bot lo 
+global.nomorown = '62823504965328' //pasang no own lo
+global.nomorown1 = '62823504965328'
+global.nomorown2 = '62823504965328'
 global.nomorwa = '0'
-global.nameown = '𝒁𝑰𝑹𝑶-𝑴𝑫'
+global.nameown = '𝙵𝚎𝚛𝚍𝚢 𝙵𝚒𝚛𝚖𝚊𝚗𝚜𝚢𝚊𝚑'
 global.gcname = '𝐆𝐫𝐨𝐮𝐩 𝐁𝐨𝐭𝐳'
-global.author = '𝒁𝒊𝒓𝒐𝑩𝑶𝑻𝐳 -𝐌𝐃'
-global.namabot = '𝒁𝐢𝐫𝐨𝐁𝐎𝐓𝐳 -𝗠𝗗'
+global.author = '𝙻𝚎𝚘𝚗𝙱𝙾𝚃-𝙼𝙳'
+global.namabot = '𝙻𝚎𝚘𝚗𝙱𝙾𝚃-𝙼𝙳'
 global.namebot = namabot
 global.packname2 = namabot
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
-global.nameown1= '𝒁𝑰𝑹𝑶'
-global.nameown2 = '𝒁𝑰𝑹𝑶'
+global.nameown1= '𝙵𝙴𝚁𝙳𝚈 𝙵𝙸𝚁𝙼𝙰𝙽𝚂𝚈𝙰𝙷'
+global.nameown2 = '𝙵𝚎𝚛𝚍𝚢 𝙵𝚒𝚛𝚖𝚊𝚗𝚜𝚢𝚊𝚑'
 
 /*============== STAFF ==============*/
 //kosong
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.wm = '© 𝒁𝒊𝒓𝒐𝑩𝑶𝑻𝐳 -𝐌𝐃 || 𝒁𝑰𝑹𝑶'
-global.wm2 = '𝒁𝒊𝒓𝒐𝑩𝑶𝑻𝐳 -𝐌𝐃 '
+global.wm = '© 𝙻𝙴𝙾𝙽-𝙱𝙾𝚃 || 𝙵𝙴𝚁𝙳𝚈'
+global.wm2 = '𝙻𝙴𝙾𝙽-𝙱𝙾𝚃 𝙼𝙳'
 global.wm3 = `© ${namabot}`
-global.packname = '𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐙𝐈𝐑𝐎'
+global.packname = '𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐋𝐞𝐨𝐧𝐁𝐎𝐓'
 global.watermark = namabot
-global.titlebot = `𝒁𝒊𝒓𝒐𝑩𝑶𝑻𝐳 -𝐌𝐃 -𝐌𝐃`
+global.titlebot = `𝐋𝐞𝐨𝐧𝐁𝐨𝐭-𝐌𝐃`
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NAMA STICKER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
-global.stickpack = '© 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝒁𝒊𝒓𝒐𝑩𝑶𝑻𝐳 -𝐌𝐃'
-global.stickauth = `𝒁𝒊𝒓𝒐𝑩𝑶𝑻𝐳 -𝐌𝐃 -𝐌𝐃`
+global.stickpack = '© 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐋𝐞𝐨𝐧𝐁𝐎𝐓𝐳 -𝐌𝐃'
+global.stickauth = `𝙱𝚢 𝙵𝚎𝚛𝚍𝚢 𝙳𝙲𝚘𝚍𝚎𝚛`
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TIME INFO  ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
-global.botdate = `⫹⫺ 𝐃𝐀𝐓𝐄 : ${week} ${date}\n⫹⫺ 𝐓𝐈𝐌𝐄 : ${wktuwib}`
-global.jb = `📆 TANGGAL : ${date}\n⌚ JAM ${wib}`
-global.bottime = `T I M E : ${wktuwib}`
+global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲 : ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲 : ${wktuwib}`
+global.jb = `📆 𝗧𝗮𝗻𝗴𝗴𝗮𝗹 : ${date}\n⌚ 𝗝𝗔𝗠 ${wib}`
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.week = `${week} ${date}`
 global.datee = `${week} ${date}`
 global.islamic = `${dateIslamic}`
@@ -112,14 +112,14 @@ global.ig = 'www.instagram.com/marsandi_19'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
-global.pdana = '081232813734'//pasang no lo sinih buat donasi 
+global.pdana = '-'//pasang no lo sinih buat donasi 
 global.povo = '-' 
-global.pgopay = '-'
+global.pgopay = '082350496532'
 global.plinkaja = '-' //link aja
-global.ppulsa = '-' // Pulsa Telkom
-global.ppulsa2 = '089530291942' // Pulsa Tri
-global.psaweria = 'https://saweria.co/ZiroMD'
-global.donasikabul = 'Gadaa'
+global.ppulsa = '082350496532' // Pulsa Telkom
+global.ppulsa2 = '-' // Pulsa Tri
+global.psaweria = '-'
+global.donasikabul = '-'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
@@ -163,7 +163,7 @@ global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
 global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RPG GAME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.multiplier = 69 // The higher, The harder levelup 
+global.multiplier = 39 // The higher, The harder levelup 
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
@@ -302,8 +302,8 @@ global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
 global.premnsfw = true // Nsfw Mode Premium?
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ THUMBNAIL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.fotonya1 = 'https://telegra.ph/file/2e8d2ef0926e848626a43.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/2e8d2ef0926e848626a43.jpg' //ini juga ganti 
+global.fotonya1 = 'https://ibb.co/bzN5RWQ' //ganti jadi foto bot mu
+global.fotonya2 = 'https://ibb.co/bzN5RWQ' //ini juga ganti 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ Main Thumbnail ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
@@ -314,16 +314,16 @@ global.thumb = fp
 global.dbnya = `sessions/database.json`
 global.sesinya = `sessions/QueensBotz -MD`
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/marsandi_19"
+global.urlnya = "-"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '6281228070013'
+global.phn = '6282350496532'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.fsizedoc = '99999999999999'
 global.fpagedoc = '999'
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://ibb.co/bzN5RWQ'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
